@@ -35,10 +35,7 @@ Fuzzification is performed on the variables **a**, **b**, and **c** according to
 
 
 1. **Image Enlargement**:
-   - First, the image is enlarged (doubling the length and width), creating a number of pixels with unknown values as shown in the figure:
-
-   ![Image Enlargement](images/im4.png)
-
+   - First, the image is enlarged (doubling the length and width).
    - The remaining pixels result from the increased resolution of the image and need their values assigned.
    
 2. **ELA Algorithm Application**:
@@ -48,9 +45,12 @@ Fuzzification is performed on the variables **a**, **b**, and **c** according to
      - **Y**: The group of unknown value pixels with known value pixels to their left and right (as shown in the figure). Here, the 6 input pixels for the dark gray pixel **y** are represented by {A, B, C, D, E, F}.
      - **Y.X**: The group of pixels that do not meet the conditions of either **X** or **Y**. Here, the 6 input pixels for the black pixels **xy** (according to the figure) are represented by {A, x, B, D, x, E} or {A, y, B, D, y, E}.
 
+![Image Enlargement](images/im4.png)
+
+4. **Defuzzification Equation**:
 ![Image Enlargement](images/im5.png)
 
-3. **Algorithm Application**:
+5. **Algorithm Application**:
    - The algorithm is applied to all unknown value pixels. The output of the algorithm is the result of the defuzzification of the previous rules.
 
 - **Input**:
