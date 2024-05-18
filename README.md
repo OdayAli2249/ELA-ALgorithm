@@ -1,7 +1,7 @@
 # Edge-based Line Average (ELA) Algorithm
 
 ## Introduction
-This repository contains a practical implementation of the **Edge-based Line Average (ELA) Algorithm**, derived from research in the field of using AI for image processing. The aim of this project is to provide a successful and practical application of the ELA algorithm, which enhances image resolution by preserving edges and maintaining color consistency. Contributions to improve and expand this implementation are welcome. You can find the original research [here]([RESEARCH_LINK](https://www.researchgate.net/publication/339208030_Fuzzy_Logic_Applied_to_Improvement_of_Image_Resolution_using_Gaussian_Membership_Functions).
+This repository contains a practical implementation of the **Edge-based Line Average (ELA) Algorithm**, derived from research in the field of using AI for image processing. The aim of this project is to provide a successful and practical application of the ELA algorithm, which enhances image resolution by preserving edges and maintaining color consistency. Contributions to improve and expand this implementation are welcome. You can find the original research [here](https://www.researchgate.net/publication/339208030_Fuzzy_Logic_Applied_to_Improvement_of_Image_Resolution_using_Gaussian_Membership_Functions).
 
 ## Algorithm Description
 
