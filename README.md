@@ -41,9 +41,9 @@ Fuzzification is performed on the variables **a**, **b**, and **c** according to
 2. **ELA Algorithm Application**:
    - To apply the ELA algorithm, we need 6 surrounding pixels from the previously mentioned example to calculate **a**, **b**, and **c** and apply the rules.
    - The unknown value pixels can be classified into three categories:
-     - **X**: The group of pixels with known value pixels above and below them (as shown in the figure). Here, the 6 input pixels for the dark gray pixel **x** are represented by {A, B, C, D, E, F}.
-     - **Y**: The group of unknown value pixels with known value pixels to their left and right (as shown in the figure). Here, the 6 input pixels for the dark gray pixel **y** are represented by {A, B, C, D, E, F}.
-     - **Y.X**: The group of pixels that do not meet the conditions of either **X** or **Y**. Here, the 6 input pixels for the black pixels **xy** (according to the figure) are represented by {A, x, B, D, x, E} or {A, y, B, D, y, E}.
+     - **x**: The group of pixels with known value pixels above and below them (as shown in the figure). Here, the 6 input pixels for the dark gray pixel **x** are represented by {A, B, C, D, E, F}.
+     - **y**: The group of unknown value pixels with known value pixels to their left and right (as shown in the figure). Here, the 6 input pixels for the dark gray pixel **y** are represented by {A, B, C, D, E, F}.
+     - **xy**: The group of pixels that do not meet the conditions of either **x** or **y**. Here, the 6 input pixels for the black pixels **xy** (according to the figure) are represented by {A, x, B, D, x, E} or {A, y, B, D, y, E}.
 
 ![Image Enlargement](images/im4.png)
 
