@@ -53,10 +53,10 @@ Fuzzification is performed on the variables **a**, **b**, and **c** according to
 3. **Algorithm Application**:
    - The algorithm is applied to all unknown value pixels. The output of the algorithm is the result of the defuzzification of the previous rules.
 
-**Input**:
-![Image Enlargement](images/input.png)
-**Result**:
-![Image Enlargement](images/result.png)
+- **Input**:
+- ![Image Enlargement](images/input.jpg)
+- **Result**:
+- ![Image Enlargement](images/result.jpg)
 
 ## Contribution
 Contributions to this project are welcome. Feel free to open issues or submit pull requests to enhance the algorithm, fix bugs, or improve documentation. Your collaboration will help make this implementation more robust and versatile for various image processing applications.
